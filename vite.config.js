@@ -1,5 +1,5 @@
-export default {
-    server: {
-        host: '0.0.0.0'
-    }
-}
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+    base: '/blackjack/',
+});
